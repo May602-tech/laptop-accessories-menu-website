@@ -1,3 +1,32 @@
+/* COLOR THEME */
+const themeToggle = document.getElementById("themeToggle");
+
+function updateThemeToggle(theme) {
+  if (!themeToggle) return;
+  const nextTheme = theme === "dark" ? "light" : "dark";
+  themeToggle.setAttribute("aria-label", `Switch to ${nextTheme} mode`);
+  themeToggle.setAttribute("title", `Switch to ${nextTheme} mode`);
+}
+
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  updateThemeToggle(theme);
+
+  try {
+    localStorage.setItem("techhub-theme", theme);
+  } catch (error) {
+    // The selected theme still works when storage is unavailable.
+  }
+}
+
+if (themeToggle) {
+  updateThemeToggle(document.documentElement.dataset.theme || "light");
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = document.documentElement.dataset.theme || "light";
+    setTheme(currentTheme === "dark" ? "light" : "dark");
+  });
+}
+
 /* HAMBURGER MENU */
 const menuToggle = document.getElementById("menuToggle");
 const navMenu = document.getElementById("navMenu");

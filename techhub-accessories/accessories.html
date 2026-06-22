@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessories | TechHub Accessories</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-page="accessories">
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-battery" viewBox="0 0 24 24">
+      <rect x="2.5" y="7" width="17" height="10" rx="2"></rect><path d="M21.5 10v4M6 10.5h6M9 8v5"></path>
+    </symbol>
+    <symbol id="icon-keyboard" viewBox="0 0 24 24">
+      <rect x="2" y="5.5" width="20" height="13" rx="2.5"></rect><path d="M6 9h.01M9 9h.01M12 9h.01M15 9h.01M18 9h.01M6 12.5h.01M9 12.5h.01M12 12.5h.01M15 12.5h.01M18 12.5h.01M7 16h10"></path>
+    </symbol>
+    <symbol id="icon-adapter" viewBox="0 0 24 24">
+      <path d="M9 3v5M15 3v5M7 8h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V8ZM12 16v5"></path>
+    </symbol>
+    <symbol id="icon-lcd" viewBox="0 0 24 24">
+      <rect x="2.5" y="3.5" width="19" height="13" rx="2.5"></rect><path d="M8 20.5h8M12 16.5v4"></path>
+    </symbol>
+    <symbol id="icon-mouse" viewBox="0 0 24 24">
+      <rect x="6" y="2.5" width="12" height="19" rx="6"></rect><path d="M12 2.5v6M6 9h12"></path>
+    </symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+    </symbol>
+  </svg>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <header class="site-header">
+    <a href="index.html#home" class="brand-link">
+      <img src="assets/images/logo.png" alt="TechHub Accessories">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <a href="index.html#home" class="nav-link">Home</a>
+      <a href="index.html#most-ordered" class="nav-link">Most Ordered</a>
+      <a href="accessories.html" class="nav-link active">Accessories</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="catalog-page">
+    <section class="section-container catalog-hero">
+      <div>
+        <span class="eyebrow">Accessories</span>
+        <p>လိုအပ်တဲ့ laptop parts နဲ့ daily tech accessories တွေကို category အလိုက် ရွေးချယ်ပြီး Viber ကနေ တိုက်ရိုက်မှာယူနိုင်ပါတယ်။</p>
+      </div>
+      <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order on Viber</a>
+    </section>
+
+    <section class="section-container catalog-layout">
+      <aside class="catalog-sidebar">
+        <h2>Categories</h2>
+        <button type="button" class="sidebar-link active" data-category="all"><span><svg aria-hidden="true"><use href="#icon-grid"></use></svg></span>All Accessories</button>
+        <button type="button" class="sidebar-link" data-category="battery"><span><svg aria-hidden="true"><use href="#icon-battery"></use></svg></span>Laptop Battery</button>
+        <button type="button" class="sidebar-link" data-category="keypad"><span><svg aria-hidden="true"><use href="#icon-keyboard"></use></svg></span>Laptop Keypad</button>
+        <button type="button" class="sidebar-link" data-category="adapter"><span><svg aria-hidden="true"><use href="#icon-adapter"></use></svg></span>Laptop Adapter</button>
+        <button type="button" class="sidebar-link" data-category="lcd"><span><svg aria-hidden="true"><use href="#icon-lcd"></use></svg></span>Laptop LCD</button>
+        <button type="button" class="sidebar-link" data-category="others"><span><svg aria-hidden="true"><use href="#icon-mouse"></use></svg></span>Other Accessories</button>
+      </aside>
+
+      <div class="catalog-content">
+        <div class="catalog-toolbar">
+          <label class="catalog-search">
+            <span>Search</span>
+            <input type="search" id="catalogSearch" placeholder="Search accessories..." autocomplete="off">
+          </label>
+        </div>
+
+        <div class="catalog-grid">
+          <article id="battery" class="catalog-card" data-category="battery">
+            <span class="catalog-badge">Battery</span>
+            <img src="assets/images/battery1.png" alt="Laptop battery">
+            <h3>Laptop Battery</h3>
+            <p>Original and replacement batteries for common laptop models.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-battery" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+
+          <article id="battery" class="catalog-card" data-category="battery">
+            <span class="catalog-badge">Battery</span>
+            <img src="assets/images/battery2.png" alt="Laptop battery">
+            <h3>Laptop Battery</h3>
+            <p>Original and replacement batteries for common laptop models.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-battery" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="battery">
+            <span class="catalog-badge">Battery</span>
+            <img src="assets/images/battery.png" alt="High capacity laptop battery">
+            <h3>High Capacity Battery</h3>
+            <p>Longer backup option for office, class, and daily use.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=high-capacity-battery" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article id="keypad" class="catalog-card" data-category="keypad">
+            <span class="catalog-badge">Keypad</span>
+            <img src="assets/images/keyboard.svg" alt="Laptop keypad">
+            <h3>Laptop Keypad</h3>
+            <p>Replacement keyboard and keypad service for laptops.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-keypad" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="keypad">
+            <span class="catalog-badge">Keypad</span>
+            <img src="assets/images/keyboard.svg" alt="External keyboard">
+            <h3>External Keyboard</h3>
+            <p>Comfortable typing keyboard for desk setups and study.</p>
+            <strong>25,000 MMK</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=external-keyboard" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article id="adapter" class="catalog-card" data-category="adapter">
+            <span class="catalog-badge">Adapter</span>
+            <img src="assets/images/adapter.svg" alt="Laptop adapter">
+            <h3>Laptop Adapter</h3>
+            <p>Chargers and power adapters for daily laptop charging.</p>
+            <strong>30,000 MMK</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-adapter" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="adapter">
+            <span class="catalog-badge">Adapter</span>
+            <img src="assets/images/adapter.svg" alt="Type-C hub">
+            <h3>Type-C Hub</h3>
+            <p>Compact hub for USB, HDMI, and charging connection.</p>
+            <strong>20,000 MMK</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=type-c-hub" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article id="lcd" class="catalog-card" data-category="lcd">
+            <span class="catalog-badge">LCD</span>
+            <img src="assets/images/keyboard.svg" alt="Laptop LCD panel">
+            <h3>Laptop LCD</h3>
+            <p>Display panel replacement and laptop screen service.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-lcd" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="lcd">
+            <span class="catalog-badge">LCD</span>
+            <img src="assets/images/keyboard.svg" alt="Laptop display cable">
+            <h3>Display Cable</h3>
+            <p>Screen cable checking and replacement support.</p>
+            <strong>Ask Price</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=display-cable" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article id="others" class="catalog-card" data-category="others">
+            <span class="catalog-badge">Others</span>
+            <img src="assets/images/mouse.svg" alt="Wireless mouse">
+            <h3>Wireless Mouse</h3>
+            <p>Silent Bluetooth mouse for office, study, and daily work.</p>
+            <strong>15,000 MMK</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=wireless-mouse" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="others">
+            <span class="catalog-badge">Others</span>
+            <img src="assets/images/adapter.svg" alt="Laptop stand">
+            <h3>Laptop Stand</h3>
+            <p>Adjustable laptop stand for a cleaner desk setup.</p>
+            <strong>18,000 MMK</strong>
+            <div class="catalog-actions">
+              <a href="product.html?item=laptop-stand" class="details-link">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="order-link">Order Now</a>
+            </div>
+          </article>
+        </div>
+        <p class="catalog-empty" id="catalogEmpty">No accessories found.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-inner section-container">
+      <div class="footer-brand footer-block">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="TechHub Accessories">
+        </div>
+        <div>
+          <h2>TechHub </h2>
+          <p>Quality laptop accessories, parts and daily tech essentials.</p>
+        </div>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Contact</h3>
+        <a href="tel:09661919266">09 661 919 266</a>
+        <a href="viber://chat?number=%2B959661919266">Order on Viber</a>
+        <p>Hlaing Township, Yangon</p>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Follow us on !</h3>
+        <div class="social-links">
+          <a href="viber://chat?number=%2B959661919266" aria-label="Chat with TechHub Accessories on Viber">Viber</a>
+          <a href="https://www.tiktok.com/@techhubaccess" target="_blank" rel="noopener" aria-label="Open TechHub Accessories TikTok">TikTok</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TechHub</p>
+        <a href="#" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

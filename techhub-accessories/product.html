@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details | TechHub Accessories</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-page="accessories">
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <header class="site-header">
+    <a href="index.html#home" class="brand-link">
+      <img src="assets/images/logo.png" alt="TechHub Accessories">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <a href="index.html#home" class="nav-link">Home</a>
+      <a href="index.html#most-ordered" class="nav-link">Most Ordered</a>
+      <a href="accessories.html" class="nav-link active">Accessories</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <section class="section-container breadcrumb">
+      <a href="index.html#home">Home</a>
+      <span>/</span>
+      <a href="accessories.html">Accessories</a>
+      <span>/</span>
+      <span id="detailBreadcrumb">Product</span>
+    </section>
+
+    <section class="section-container product-detail">
+      <div class="product-gallery">
+        <div class="product-image-panel">
+          <img id="detailImage" src="assets/images/adapter.svg" alt="">
+        </div>
+      </div>
+
+      <div class="product-summary">
+        <span class="catalog-badge" id="detailCategory">Adapter</span>
+        <h1 id="detailTitle">Laptop Adapter</h1>
+        <p class="detail-subtitle" id="detailSubtitle">Reliable charger for daily laptop power.</p>
+        <strong id="detailPrice">30,000 MMK</strong>
+
+        <ul class="detail-points" id="detailPoints"></ul>
+
+        <div class="detail-actions">
+          <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order on Viber</a>
+          <a href="tel:09661919266" class="btn outline-btn">Call Shop</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container detail-info-grid">
+      <div class="detail-panel">
+        <h2>Description</h2>
+        <p id="detailDescription"></p>
+      </div>
+
+      <div class="detail-panel">
+        <h2>Specifications</h2>
+        <ul id="detailSpecs"></ul>
+      </div>
+    </section>
+
+    <section class="section-container related-section">
+      <div class="section-heading">
+        <span class="eyebrow">You may also like</span>
+        <h2>Related Accessories</h2>
+      </div>
+
+      <div class="related-grid">
+        <a href="product.html?item=wireless-mouse" class="related-card">
+          <img src="assets/images/mouse.svg" alt="Wireless mouse">
+          <span>Wireless Mouse</span>
+        </a>
+        <a href="product.html?item=type-c-hub" class="related-card">
+          <img src="assets/images/adapter.svg" alt="Type-C hub">
+          <span>Type-C Hub</span>
+        </a>
+        <a href="product.html?item=laptop-stand" class="related-card">
+          <img src="assets/images/adapter.svg" alt="Laptop stand">
+          <span>Laptop Stand</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-inner section-container">
+      <div class="footer-brand footer-block">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="TechHub Accessories">
+        </div>
+        <div>
+          <h2>TechHub </h2>
+          <p>Quality laptop accessories, parts and daily tech essentials.</p>
+        </div>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Contact</h3>
+        <a href="tel:09661919266">09 661 919 266</a>
+        <a href="viber://chat?number=%2B959661919266">Order on Viber</a>
+        <p>Hlaing Township, Yangon</p>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Follow us on !</h3>
+        <div class="social-links">
+          <a href="viber://chat?number=%2B959661919266" aria-label="Chat with TechHub Accessories on Viber">Viber</a>
+          <a href="https://www.tiktok.com/@techhubaccess" target="_blank" rel="noopener" aria-label="Open TechHub Accessories TikTok">TikTok</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TechHub</p>
+        <a href="#" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

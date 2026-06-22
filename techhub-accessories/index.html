@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechHub </title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-battery" viewBox="0 0 24 24">
+      <rect x="2.5" y="7" width="17" height="10" rx="2"></rect><path d="M21.5 10v4M6 10.5h6M9 8v5"></path>
+    </symbol>
+    <symbol id="icon-keyboard" viewBox="0 0 24 24">
+      <rect x="2" y="5.5" width="20" height="13" rx="2.5"></rect><path d="M6 9h.01M9 9h.01M12 9h.01M15 9h.01M18 9h.01M6 12.5h.01M9 12.5h.01M12 12.5h.01M15 12.5h.01M18 12.5h.01M7 16h10"></path>
+    </symbol>
+    <symbol id="icon-adapter" viewBox="0 0 24 24">
+      <path d="M9 3v5M15 3v5M7 8h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V8ZM12 16v5"></path>
+    </symbol>
+    <symbol id="icon-lcd" viewBox="0 0 24 24">
+      <rect x="2.5" y="3.5" width="19" height="13" rx="2.5"></rect><path d="M8 20.5h8M12 16.5v4"></path>
+    </symbol>
+    <symbol id="icon-mouse" viewBox="0 0 24 24">
+      <rect x="6" y="2.5" width="12" height="19" rx="6"></rect><path d="M12 2.5v6M6 9h12"></path>
+    </symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+    </symbol>
+  </svg>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <header class="site-header">
+  <a href="#home" class="brand-link">
+    <img src="assets/images/logo.png" alt="TechHub Accessories">
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" type="button">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#most-ordered" class="nav-link">Most Ordered</a>
+    <a href="accessories.html" class="nav-link">Accessories</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+
+
+  <main id="home">
+    <section class="hero section-container">
+      <div class="hero-content glass-card">
+        <span class="eyebrow">Welcome from TechHub! </span>
+        <h1>TechHub's Accessories</h1>
+        <p>
+          Laptop accessories, keyboard, mouse, adapter နဲ့ daily tech essentials တွေကို
+          သန့်ရှင်းတဲ့ menu-style web page လေးနဲ့ မိတ်ဆက်ထားပါတယ်။
+        </p>
+
+        <div class="hero-actions">
+          <a href="accessories.html" class="btn primary-btn">View Accessories</a>
+          <a href="#contact" class="btn outline-btn">Contact Shop</a>
+        </div>
+      </div>
+
+      <div class="hero-visual glass-card">
+        <div class="menu-preview">
+          <div class="menu-preview-head">
+            <div>
+              <span>Quick shop</span>
+              <h2>Popular right now</h2>
+            </div>
+            <a href="accessories.html" aria-label="View all accessories">View all <span aria-hidden="true">→</span></a>
+          </div>
+
+          <div class="preview-products">
+            <a class="preview-product" href="product.html?item=wireless-mouse">
+              <span class="preview-image"><img src="assets/images/mouse.svg" alt=""></span>
+              <span class="preview-copy"><strong>Wireless Mouse</strong><small>Silent &amp; compact</small></span>
+              <span class="preview-price">15,000 <small>MMK</small></span>
+            </a>
+
+            <a class="preview-product" href="product.html?item=external-keyboard">
+              <span class="preview-image"><img src="assets/images/keyboard.svg" alt=""></span>
+              <span class="preview-copy"><strong>Keyboard</strong><small>Comfortable typing</small></span>
+              <span class="preview-price">25,000 <small>MMK</small></span>
+            </a>
+
+            <a class="preview-product" href="product.html?item=laptop-adapter">
+              <span class="preview-image"><img src="assets/images/adapter.svg" alt=""></span>
+              <span class="preview-copy"><strong>Laptop Adapter</strong><small>Reliable daily power</small></span>
+              <span class="preview-price">30,000 <small>MMK</small></span>
+            </a>
+          </div>
+
+          <div class="menu-preview-foot">
+            <span><b>5+</b> categories</span>
+            <span><b>Fast</b> Viber ordering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="most-ordered" class="section-container most-section">
+  <div class="section-heading">
+    <span class="eyebrow">Most Ordered</span>
+    <h2>Popular Accessories</h2>
+    <p>Customer တွေအများဆုံးမှာတဲ့ Top 1 to Top 5 accessories တွေကို ပြပေးထားပါတယ်။</p>
+  </div>
+
+  <div class="most-slider-wrap glass-card">
+    <div class="most-slider" id="mostSlider">
+
+      <article class="product-card glass-card">
+        <span class="badge">Top 1</span>
+
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/images/mouse.svg" alt="Wireless Mouse">
+          </div>
+
+          <div class="card-info">
+            <h3>Wireless Mouse</h3>
+            <p>Silent Bluetooth Mouse for study, office work, and daily use.</p>
+            <strong>15,000 MMK</strong>
+
+            <div class="card-actions">
+              <a href="accessories.html" class="btn outline-btn">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card glass-card">
+        <span class="badge">Top 2</span>
+
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/images/keyboard.svg" alt="Keyboard">
+          </div>
+
+          <div class="card-info">
+            <h3>Keyboard</h3>
+            <p>Clean typing setup အတွက် comfortable keyboard accessory.</p>
+            <strong>25,000 MMK</strong>
+
+            <div class="card-actions">
+              <a href="accessories.html" class="btn outline-btn">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card glass-card">
+        <span class="badge">Top 3</span>
+
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/images/adapter.svg" alt="Laptop Adapter">
+          </div>
+
+          <div class="card-info">
+            <h3>Laptop Adapter</h3>
+            <p>Laptop နဲ့ daily tech devices တွေအတွက် useful adapter.</p>
+            <strong>30,000 MMK</strong>
+
+            <div class="card-actions">
+              <a href="accessories.html" class="btn outline-btn">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card glass-card">
+        <span class="badge">Top 4</span>
+
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/images/adapter.svg" alt="Type-C Hub">
+          </div>
+
+          <div class="card-info">
+            <h3>Type-C Hub</h3>
+            <p>USB, HDMI, charging port တွေအတွက် compact Type-C hub.</p>
+            <strong>20,000 MMK</strong>
+
+            <div class="card-actions">
+              <a href="accessories.html" class="btn outline-btn">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card glass-card">
+        <span class="badge">Top 5</span>
+
+        <div class="card-content">
+          <div class="card-image">
+            <img src="assets/images/keyboard.svg" alt="Laptop Stand">
+          </div>
+
+          <div class="card-info">
+            <h3>Laptop Stand</h3>
+            <p>Desk setup သပ်သပ်ရပ်ရပ်ဖြစ်စေမယ့် adjustable laptop stand.</p>
+            <strong>18,000 MMK</strong>
+
+            <div class="card-actions">
+              <a href="accessories.html" class="btn outline-btn">View Details</a>
+              <a href="viber://chat?number=%2B959661919266" class="btn primary-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <section id="accessories" class="section-container accessories-section">
+      <div class="section-heading">
+        <span class="eyebrow">Accessories</span>
+        <h2>View by Category</h2>
+        <p>TechHub မှာ ရနိုင်တဲ့ laptop accessories categories တွေကို
+  အလွယ်တကူကြည့်ရှုနိုင်ပါတယ်။</p>
+      </div>
+
+      <div class="category-grid">
+  <article class="category-card glass-card">
+    <div class="category-icon"><svg aria-hidden="true"><use href="#icon-battery"></use></svg></div>
+    <div class="category-copy">
+      <h3>Laptop Battery</h3>
+      <p>Original & replacement</p>
+    </div>
+    <a href="accessories.html#battery" class="category-link">View</a>
+  </article>
+
+  <article class="category-card glass-card">
+    <div class="category-icon"><svg aria-hidden="true"><use href="#icon-keyboard"></use></svg></div>
+    <div class="category-copy">
+      <h3>Laptop Keypad</h3>
+      <p>Keyboard replacement</p>
+    </div>
+    <a href="accessories.html#keypad" class="category-link">View</a>
+  </article>
+
+  <article class="category-card glass-card">
+    <div class="category-icon"><svg aria-hidden="true"><use href="#icon-adapter"></use></svg></div>
+    <div class="category-copy">
+      <h3>Laptop Adapter</h3>
+      <p>Chargers & power</p>
+    </div>
+    <a href="accessories.html#adapter" class="category-link">View</a>
+  </article>
+
+  <article class="category-card glass-card">
+    <div class="category-icon"><svg aria-hidden="true"><use href="#icon-lcd"></use></svg></div>
+    <div class="category-copy">
+      <h3>Laptop LCD</h3>
+      <p>Display panel service</p>
+    </div>
+    <a href="accessories.html#lcd" class="category-link">View</a>
+  </article>
+
+  <article class="category-card glass-card">
+    <div class="category-icon"><svg aria-hidden="true"><use href="#icon-mouse"></use></svg></div>
+    <div class="category-copy">
+      <h3>Other Accessories</h3>
+      <p>Mouse, stand, hub & more</p>
+    </div>
+    <a href="accessories.html#others" class="category-link">View</a>
+  </article>
+</div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-inner section-container">
+      <div class="footer-brand footer-block">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="TechHub Accessories">
+        </div>
+        <div>
+          <h2>TechHub </h2>
+          <p>Quality laptop accessories, parts and daily tech essentials.</p>
+        </div>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Contact</h3>
+        <a href="tel:09661919266">09 661 919 266</a>
+        <a href="viber://chat?number=%2B959661919266">Order on Viber</a>
+        <p>Hlaing Township, Yangon</p>
+      </div>
+
+      <div class="footer-column footer-block">
+        <h3>Follow us on !</h3>
+        <div class="social-links">
+          <a href="viber://chat?number=%2B959661919266" aria-label="Chat with TechHub Accessories on Viber">Viber</a>
+          <a href="https://www.tiktok.com/@techhubaccess" target="_blank" rel="noopener" aria-label="Open TechHub Accessories TikTok">TikTok</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TechHub</p>
+        <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

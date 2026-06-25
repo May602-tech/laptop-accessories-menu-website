@@ -179,26 +179,66 @@ document.querySelectorAll(".details-link").forEach((link) => {
 
 /* PRODUCT DETAIL */
 const productData = {
-  "laptop-battery": {
-    title: "Laptop Battery",
+  "dell-mr90y": {
+    title: "Dell MR90Y",
     category: "Battery",
     price: "Ask Price",
-    image: "assets/images/adapter.svg",
-    subtitle: "Original and replacement laptop battery options for common models.",
-    description: "A clean replacement option for laptops with weak backup time, charging issues, or aging battery performance. Message TechHub with your laptop model before ordering.",
+    image: "assets/images/mr90y.png",
+    subtitle: "Original and replacement Dell MR90Y laptop battery options.",
+    description: "A dependable replacement battery for Dell laptops with poor backup time, charging issues, or battery wear. Message TechHub with your laptop model before ordering.",
     points: ["Model checking before order", "Original and compatible options", "Good for weak backup time", "Pickup available in Hlaing"],
-    specs: ["Category: Laptop Battery", "Condition: Original / Replacement", "Support: Model checking required", "Order: Viber or phone call"]
+    specs: ["Category: Laptop Battery", "Condition: Original / Replacement", "Support: Model checking required", "Warranty: 6months "]
   },
-  "high-capacity-battery": {
-    title: "High Capacity Battery",
+  "dell-wdx0r": {
+    title: "Dell WDX0R",
     category: "Battery",
     price: "Ask Price",
-    image: "assets/images/battery.png",
-    subtitle: "Longer backup battery option for class, office, and travel.",
-    description: "Suitable for users who need better backup time for daily laptop work. Availability depends on laptop brand and model.",
-    points: ["Longer backup focus", "Brand/model checking", "Daily work friendly", "Quick reply on Viber"],
-    specs: ["Category: Laptop Battery", "Type: High capacity", "Compatibility: Depends on model", "Warranty: Ask shop"]
+    image: "assets/images/wdx0r.png",
+    subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+    description: "A reliable replacement battery compatible with select Dell laptops, offering stable performance, long battery life, and built-in safety protection.",
+    points: ["Model checking before order","Original and compatible options","Good for weak backup time","Pickup available in Hlaing"],
+    specs: ["Category: Laptop Battery","Model: Dell WDX0R","Condition: Original / Replacement","Warranty: 6months"]
   },
+  "dell-yrdd6": {
+  title: "Dell YRDD6",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/yrdd6.png",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, delivering stable performance, dependable backup time, and built-in safety protection.",
+  points: [
+    "Model checking before order",
+    "Original and compatible options",
+    "Good for weak backup time",
+    "Pickup available in Hlaing"
+  ],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Dell YRDD6",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+  "dell-xcmrd": {
+  title: "Dell XCMRD",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/xcmrd.png",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, delivering stable performance, dependable backup time, and built-in safety protection.",
+  points: [
+    "Model checking before order",
+    "Original and compatible options",
+    "Good for weak backup time",
+    "Pickup available in Hlaing"
+  ],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Dell XCMRD",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
   "laptop-keypad": {
     title: "Laptop Keypad",
     category: "Keypad",
@@ -259,15 +299,15 @@ const productData = {
     points: ["Display cable checking", "Flicker issue support", "Model based parts", "Contact before order"],
     specs: ["Category: LCD Parts", "Use: Display connection", "Compatibility: Model based", "Price: Ask shop"]
   },
-  "wireless-mouse": {
-    title: "Wireless Mouse",
-    category: "Others",
-    price: "15,000 MMK",
-    image: "assets/images/mouse.svg",
-    subtitle: "Silent Bluetooth mouse for office, study, and daily work.",
-    description: "A clean daily mouse for laptop users who want a simple, portable, and comfortable accessory.",
-    points: ["Silent click feel", "Portable size", "Good for office and study", "Affordable daily accessory"],
-    specs: ["Category: Mouse", "Connection: Wireless / Bluetooth option", "Use: Office / Study", "Price: 15,000 MMK"]
+  "dell-m5y1k": {
+    title: "Dell M5Y1K",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/m5y1k.png",
+    subtitle: "Original 4-cell Dell laptop battery with reliable, long-lasting performance.",
+    description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, offering stable performance, long battery life, and built-in safety protection.",
+    points: ["Model checking before order","Original and compatible options","Good for weak backup time","Pickup available in Hlaing"],
+    specs: [ "Category: Laptop Battery","Model: Dell M5Y1K","Condition: Original / Replacement","Warranty: 6months"]
   },
   "laptop-stand": {
     title: "Laptop Stand",
@@ -410,5 +450,5 @@ if (mostSlider && !prefersReducedMotion.matches) {
   mostSlider.addEventListener("mouseleave", () => { mostSliderPaused = false; });
   mostSlider.addEventListener("focusin", () => { mostSliderPaused = true; });
   mostSlider.addEventListener("focusout", () => { mostSliderPaused = false; });
-  setInterval(autoSlideMost, 3500);
+  setInterval(autoSlideMost, 1800);
 }

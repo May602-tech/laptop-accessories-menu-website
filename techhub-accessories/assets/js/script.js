@@ -179,39 +179,47 @@ document.querySelectorAll(".details-link").forEach((link) => {
 
 /* PRODUCT DETAIL */
 const productData = {
+
+   "dell-m5y1k": {
+    title: "Dell M5Y1K",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/battery/m5y1k.png",
+    subtitle: "Original 4-cell Dell laptop battery with reliable, long-lasting performance.",
+    description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, offering stable performance, long battery life, and built-in safety protection.",
+    points: ["မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+    specs: [ "Category: Laptop Battery","Model: Dell M5Y1K","Condition: Original / Replacement","Warranty: 6months"]
+  },
+  
   "dell-mr90y": {
     title: "Dell MR90Y",
     category: "Battery",
     price: "Ask Price",
-    image: "assets/images/mr90y.png",
+    image: "assets/images/battery/mr90y.png",
     subtitle: "Original and replacement Dell MR90Y laptop battery options.",
     description: "A dependable replacement battery for Dell laptops with poor backup time, charging issues, or battery wear. Message TechHub with your laptop model before ordering.",
-    points: ["Model checking before order", "Original and compatible options", "Good for weak backup time", "Pickup available in Hlaing"],
+    points: ["မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
     specs: ["Category: Laptop Battery", "Condition: Original / Replacement", "Support: Model checking required", "Warranty: 6months "]
   },
   "dell-wdx0r": {
     title: "Dell WDX0R",
     category: "Battery",
     price: "Ask Price",
-    image: "assets/images/wdx0r.png",
+    image: "assets/images/battery/wdx0r.png",
     subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
     description: "A reliable replacement battery compatible with select Dell laptops, offering stable performance, long battery life, and built-in safety protection.",
-    points: ["Model checking before order","Original and compatible options","Good for weak backup time","Pickup available in Hlaing"],
+    points: ["မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
     specs: ["Category: Laptop Battery","Model: Dell WDX0R","Condition: Original / Replacement","Warranty: 6months"]
   },
   "dell-yrdd6": {
   title: "Dell YRDD6",
   category: "Battery",
   price: "Ask Price",
-  image: "assets/images/yrdd6.png",
+  image: "assets/images/battery/yrdd6.png",
   subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
   description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, delivering stable performance, dependable backup time, and built-in safety protection.",
   points: [
-    "Model checking before order",
-    "Original and compatible options",
-    "Good for weak backup time",
-    "Pickup available in Hlaing"
-  ],
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
   specs: [
     "Category: Laptop Battery",
     "Model: Dell YRDD6",
@@ -223,22 +231,47 @@ const productData = {
   title: "Dell XCMRD",
   category: "Battery",
   price: "Ask Price",
-  image: "assets/images/xcmrd.png",
+  image: "assets/images/battery/xcmrd.png",
   subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
   description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, delivering stable performance, dependable backup time, and built-in safety protection.",
   points: [
-    "Model checking before order",
-    "Original and compatible options",
-    "Good for weak backup time",
-    "Pickup available in Hlaing"
-  ],
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: ["Category: Laptop Battery","Model: Dell XCMRD","Condition: Original / Replacement","Warranty: 6months"]
+  },
+
+  "acer-al12a32": {
+  title: "Acer AL12A32",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/al12a32.png",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Acer AL12A32 is a reliable Li-ion laptop battery designed to meet original equipment manufacturer standards and maintain safe long-term performance.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
   specs: [
     "Category: Laptop Battery",
-    "Model: Dell XCMRD",
+    "Model: Acer AL12A32",
     "Condition: Original / Replacement",
     "Warranty: 6months"
   ]
 },
+"acer-al15a32": {
+  title: "Acer AL12A32",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/al15a32.png",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Acer AL15A32 battery offers a reliable replacement option for compatible Acer laptops, providing up to 37Wh of energy, robust safety features, and an expected lifecycle of hundreds of charge-discharge cycles. Proper use, avoiding extreme temperatures, and periodic calibration can help maximize battery lifespan and efficiency.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Acer AL15A32",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
   "laptop-keypad": {
     title: "Laptop Keypad",
     category: "Keypad",
@@ -299,16 +332,7 @@ const productData = {
     points: ["Display cable checking", "Flicker issue support", "Model based parts", "Contact before order"],
     specs: ["Category: LCD Parts", "Use: Display connection", "Compatibility: Model based", "Price: Ask shop"]
   },
-  "dell-m5y1k": {
-    title: "Dell M5Y1K",
-    category: "Battery",
-    price: "Ask Price",
-    image: "assets/images/m5y1k.png",
-    subtitle: "Original 4-cell Dell laptop battery with reliable, long-lasting performance.",
-    description: "A reliable replacement battery compatible with select Dell Inspiron and Vostro laptops, offering stable performance, long battery life, and built-in safety protection.",
-    points: ["Model checking before order","Original and compatible options","Good for weak backup time","Pickup available in Hlaing"],
-    specs: [ "Category: Laptop Battery","Model: Dell M5Y1K","Condition: Original / Replacement","Warranty: 6months"]
-  },
+  
   "laptop-stand": {
     title: "Laptop Stand",
     category: "Others",

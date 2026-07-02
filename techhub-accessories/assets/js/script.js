@@ -272,6 +272,41 @@ const productData = {
   ]
 },
 
+"acer-as16a5k": {
+  title: "Acer AS16A5K",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/as16a5k.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The AS16A5K battery is a reliable replacement battery for Acer laptops, offering a moderate 4-cell capacity, broad model compatibility, and enhanced safety features.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Acer AS16A5K",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"acer-ap13b8k": {
+  title: "Acer AP13B8K",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/ap13b8k.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Acer AP13B8K battery is a premium Li-ion replacement for a wide range of Acer Aspire laptops, offering a voltage range of 15–15.2V, capacity of 3560–3600 mAh (53–54.8 Wh), and 4-cell configuration.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Acer AP13B8K",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+
   "laptop-keypad": {
     title: "Laptop Keypad",
     category: "Keypad",

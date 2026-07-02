@@ -306,6 +306,74 @@ const productData = {
   ]
 },
 
+"asus-b31n1912": {
+  title: "Asus B31N1912",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1912.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The B31N1912 battery is a reliable replacement for ASUS VivoBook 14 E410, L410, and similar models.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1912",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-b31n1822": {
+  title: "Asus B31N1822",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1822.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Asus B31N1822 battery is specifically engineered for multiple ZenBook Flip 14 models, including Q406, Q406D, Q406DA, UM462, UX462, UX462D, and UM462DA.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1822",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-b31n1906": {
+  title: "Asus B31N1906",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1906.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The B31N1906 battery is a high-capacity, Li-ion rechargeable battery designed for ASUS gaming and ZenBook laptops, providing reliable power and multiple safety protections for extended use.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1906",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-a31-k56": {
+  title: "Asus A31-K56",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/a31-k56.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "This battery provides reliable performance for supporting Asus notebooks, with various capacity options depending on the desired battery life and physical fit, ensuring compatibility with a broad range of Asus models.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus A31-K56",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
 
   "laptop-keypad": {
     title: "Laptop Keypad",

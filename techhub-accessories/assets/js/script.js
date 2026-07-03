@@ -374,6 +374,74 @@ const productData = {
   ]
 },
 
+"hp-ht03xl": {
+  title: "Hp HT03XL",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/ht03xl.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The HP HT03XL (HTO3XL) battery is a suitable replacement for many HP Pavilion laptops with the 14–17 inch range, offering reliable performance, fast charging, and extended cycle life.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Hp HT03XL",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"hp-ta03xl": {
+  title: "Hp TA03XL",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/ta03xl.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The HP TA03XL is a reliable, OEM-quality replacement battery for compatible HP business laptops, offering long battery life, stable voltage, and safety protections.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Hp TA03XL",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"hp-compaq6530s": {
+  title: "Hp Compaq 6530s",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/compaq6530s.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The HP Compaq 6530s supports 6-cell Li-ion batteries with 10.8V voltage rating and 47–58Wh capacity, providing reliable replacement options from both original HP and certified third-party manufacturers.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Hp Compaq 6530s",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"hp-elitebook1040g3": {
+  title: "Hp Elitebook 1040 G3",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/elitebook1040g3.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The HP EliteBook 1040 G3 is supported by a 6-cell Li-ion/LiPo battery with 45–45.6 Wh capacity and ~11.4V voltage, providing moderate runtime for mobile use, with OEM and compatible replacements widely available under part number BG06XL and related codes.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Hp Elitebook 1040 G3",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
 
   "laptop-keypad": {
     title: "Laptop Keypad",

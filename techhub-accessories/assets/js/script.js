@@ -272,6 +272,109 @@ const productData = {
   ]
 },
 
+"acer-as16a5k": {
+  title: "Acer AS16A5K",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/as16a5k.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The AS16A5K battery is a reliable replacement battery for Acer laptops, offering a moderate 4-cell capacity, broad model compatibility, and enhanced safety features.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Acer AS16A5K",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"acer-ap13b8k": {
+  title: "Acer AP13B8K",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/ap13b8k.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Acer AP13B8K battery is a premium Li-ion replacement for a wide range of Acer Aspire laptops, offering a voltage range of 15–15.2V, capacity of 3560–3600 mAh (53–54.8 Wh), and 4-cell configuration.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Acer AP13B8K",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-b31n1912": {
+  title: "Asus B31N1912",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1912.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The B31N1912 battery is a reliable replacement for ASUS VivoBook 14 E410, L410, and similar models.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1912",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-b31n1822": {
+  title: "Asus B31N1822",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1822.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Asus B31N1822 battery is specifically engineered for multiple ZenBook Flip 14 models, including Q406, Q406D, Q406DA, UM462, UX462, UX462D, and UM462DA.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1822",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-b31n1906": {
+  title: "Asus B31N1906",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/b31n1906.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The B31N1906 battery is a high-capacity, Li-ion rechargeable battery designed for ASUS gaming and ZenBook laptops, providing reliable power and multiple safety protections for extended use.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus B31N1906",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"asus-a31-k56": {
+  title: "Asus A31-K56",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/a31-k56.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "This battery provides reliable performance for supporting Asus notebooks, with various capacity options depending on the desired battery life and physical fit, ensuring compatibility with a broad range of Asus models.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Asus A31-K56",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+
   "laptop-keypad": {
     title: "Laptop Keypad",
     category: "Keypad",

@@ -408,6 +408,24 @@ const productData = {
   ]
 },
 
+"hp-sn03xl": {
+  title: "Hp SN03XL",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/sn03xl.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The SN03XL is a reliable replacement battery for HP EliteBook 820 and 725 series laptops, offering strong capacity, long lifespan, and multiple safety protections.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Hp SN03XL",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+
 "hp-compaq6530s": {
   title: "Hp Compaq 6530s",
   category: "Battery",
@@ -442,6 +460,107 @@ const productData = {
   ]
 },
 
+"lenovo-01av436": {
+  title: "Lenovo 01AV436",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/01av436.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "The Lenovo 01AV436 battery is a high-quality, manufacturer-compatible replacement suitable for a wide range of ThinkPad S2 13 Chromebook models.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Lenovo 01AV436",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+"lenovo-320s-14ikb": {
+  title: "Lenovo 320S-14IKB",
+  category: "Battery",
+  price: "Ask Price",
+  image: "assets/images/battery/320s-14ikb.jpg",
+  subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+  description: "This battery specification ensures compatibility with genuine Lenovo accessories and supports efficient power management for the IdeaPad 320S-14IKB laptop.",
+  points: [
+    "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+  specs: [
+    "Category: Laptop Battery",
+    "Model: Lenovo 320S-14IKB",
+    "Condition: Original / Replacement",
+    "Warranty: 6months"
+  ]
+},
+
+  "lenovo-t420s": {
+    title: "Lenovo T420s",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/battery/t420s.jpg",
+    subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+    description: "The Lenovo T420s battery remains widely available with both OEM and high-quality third-party replacements, allowing users to restore or improve laptop portability and work duration reliably.",
+    points: [
+      "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+    specs: [
+      "Category: Laptop Battery",
+      "Model: Lenovo T420s",
+      "Condition: Original / Replacement",
+      "Warranty: 6months"
+    ]
+  },
+
+"msi-bty-m491": {
+    title: "MSI BTY-M491",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/battery/bty-m491.jpg",
+    subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+    description: "This high-grade replacement battery is designed to match or exceed OEM performance, providing stable power, safety, and reliable extended operation for MSI laptops.",
+    points: [
+      "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+    specs: [
+      "Category: Laptop Battery",
+      "Model: MSI BTY-M491",
+      "Condition: Original / Replacement",
+      "Warranty: 6months"
+    ]
+  },
+
+  "msi-bty-m494": {
+    title: "MSI BTY-M494",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/battery/bty-m494.jpg",
+    subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+    description: "This battery provides a reliable replacement option for longer battery life in supported MSI laptops and comes with 1-year manufacturer warranty and quality assurance for most vendors.",
+    points: [
+      "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+    specs: [
+      "Category: Laptop Battery",
+      "Model: MSI BTY-M494",
+      "Condition: Original / Replacement",
+      "Warranty: 6months"
+    ]
+  },
+
+  "msi-bty-m66": {
+    title: "MSI BTY-M66",
+    category: "Battery",
+    price: "Ask Price",
+    image: "assets/images/battery/bty-m66.jpg",
+    subtitle: "Original Dell laptop battery with reliable, long-lasting performance.",
+    description: "The MSI BTY-M66 is a reliable and high-quality replacement battery suitable for a wide range of MSI laptops, providing long run-time, safety, and durability when properly maintained.",
+    points: [
+      "မဝယ်ခင် modelစစ်ရန်","Hlaing မြို့နယ်သို့လာယူနိုင်ပါတယ်","Original and Warranty 6months"],
+    specs: [
+      "Category: Laptop Battery",
+      "Model: MSI BTY-M66",
+      "Condition: Original / Replacement",
+      "Warranty: 6months"
+    ]
+  },
 
   "laptop-keypad": {
     title: "Laptop Keypad",
